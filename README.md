@@ -17,3 +17,6 @@ Send them in a form {"src": some_val: List, "ref": some_val: List, "ref_label": 
 * "src":source image in a form of list
 * "ref": reference image in a from of list
 * "ref_label":label reference for style generation (integer 0 for female or 1 for male reference image)
+
+data = {"src": some_val: List, "ref": some_val: List, "ref_label": some_val: Int}
+resp = requests.post("http://localhost:5000/inference", json=data)

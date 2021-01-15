@@ -12,6 +12,7 @@ Based on Flask and original stargan-v2 repo
 1. Pull pretrained on CelebA-HQ model using download.sh script.
 1. Run api.py without any arguments from repo root folder.
 1. Now you are good to send requests.
+
 Send them in a form {"src": some_val: List, "ref": some_val: List, "ref_label": some_val: Int}.
 where:
 * "src":source image in a form of list
